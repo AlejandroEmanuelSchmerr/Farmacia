@@ -13,7 +13,10 @@ Este es un proyecto de aplicación de escritorio para la gestión de los remedio
 
   ```bash
   pip install mysql-connector-python
+  pip install tk
   ```
+
+
 
 ---
 
