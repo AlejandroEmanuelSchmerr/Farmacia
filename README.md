@@ -3,8 +3,6 @@
 
 Este es un proyecto de aplicación de escritorio para la gestión de los remedios de una farmacia, desarrollado en **Python** utilizando **Tkinter** para la interfaz gráfica y **MySQL** para gestionar la base de datos.
 
-
-
 ---
 
 ## **Estado del proyecto**  
@@ -23,10 +21,7 @@ El proyecto está casi terminado, pero aún faltan algunos ajustes y funcionalid
   pip install tk
   ```
 
-
-
 ---
-
 
 ## Instalación y Configuración
 
@@ -65,6 +60,24 @@ El proyecto está casi terminado, pero aún faltan algunos ajustes y funcionalid
    ```
 
    Esto abrirá la interfaz gráfica de la aplicación, donde podrás interactuar con la base de datos.
+
+---
+
+## Interacción con la Aplicación
+
+Cuando ejecutas el proyecto, se abre la **ventana principal**, la cual tiene dos botones:
+
+1. **Agregar Remedio**: 
+   - Si haces clic en este botón, se abrirá una nueva ventana donde podrás ingresar los datos del remedio, como su nombre, descripción, precio, etc.
+   - Una vez completados los datos, puedes agregar el remedio a la base de datos.
+
+2. **Baja y Modificación de Remedio**: 
+   - Este botón te lleva a otra ventana con una tabla (usando `ttk.Treeview`) que muestra todos los remedios disponibles en la base de datos.
+   - Funcionalidades incluidas:
+     - **Filtrar por ID del remedio** para encontrar un producto específico.
+     - **Modificar los datos** de un remedio existente.
+     - **Eliminar un remedio** de la base de datos.
+     - **Mostrar información detallada** de un remedio seleccionado.
 
 ---
 
