@@ -3,6 +3,13 @@
 
 Este es un proyecto de aplicación de escritorio para la gestión de los remedios de una farmacia, desarrollado en **Python** utilizando **Tkinter** para la interfaz gráfica y **MySQL** para gestionar la base de datos.
 
+
+
+---
+
+## **Estado del proyecto**  
+El proyecto está casi terminado, pero aún faltan algunos ajustes y funcionalidades por implementar.
+
 ---
 
 ## Requisitos
@@ -19,6 +26,7 @@ Este es un proyecto de aplicación de escritorio para la gestión de los remedio
 
 
 ---
+
 
 ## Instalación y Configuración
 
